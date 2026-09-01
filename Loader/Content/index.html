@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js" defer></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/particles/particles.js"></script>
+    <script src="js/animations/animationObject.js" defer></script>
+    <script src="js/particles/initialize.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <script src="js/selector.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+
+    <title>No More Room in Hell 2</title>
+</head>
+
+<body>
+    <div id="background">
+        <div id="contentContainer">
+
+            <div class="preloader-wrapper big active" id="loader">
+                <div class="spinner-layer spinner-yellow-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="window_buttons">
+                <div class="minimize"></div>
+                <div class="close"></div>
+            </div>
+
+            <div id="contentArea">
+                <div id="logoContainer">
+                    <img src="img/images.jfif" id="logo" alt="No More Room in Hell 2">
+                </div>
+
+                <label>Username</label>
+                <input type="text"
+                       id="username"
+                       class="inputBox"
+                       placeholder="Enter username"
+                       autocomplete="username">
+
+                <label>Password</label>
+                <input type="password"
+                       id="password"
+                       class="inputBox"
+                       placeholder="Enter password"
+                       autocomplete="current-password">
+
+                <label class="checkboxLabel">
+                    <input type="checkbox" id="rememberMe" class="filled-in">
+                    <span>Remember me</span>
+                </label>
+
+                <div class="loginButton">
+                    <a class="waves-effect waves-light btn-large">Login</a>
+                </div>
+
+                <div id="selectionContainer">
+                    <label id="selectionLabel">No More Room in Hell 2</label>
+
+                    <div class="input-field col s12" id="selectionBox">
+                        <select id="productSelect">
+                            <option value="nmrih2" selected>
+                                No More Room in Hell 2
+                            </option>
+                        </select>
+                    </div>
+
+                    <div id="informationArea">
+                        <p>
+                            No More Room in Hell 2 module is ready.
+                            Start the game, then press Launch.
+                        </p>
+                    </div>
+
+                    <div class="switch" id="saveSelectionSwitch">
+                        <label>
+                            <input type="checkbox" id="saveSelection" checked>
+                            <span class="lever"></span>
+                            <span>Remember selection</span>
+                        </label>
+                    </div>
+
+                    <div class="launchButton">
+                        <a class="waves-effect waves-light btn-large">
+                            Launch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
